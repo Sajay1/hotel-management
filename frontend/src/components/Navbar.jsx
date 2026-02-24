@@ -5,8 +5,8 @@ export default function Navbar(){
 
     return(
         <>
-        <nav className=' flex justify-between bg-black bg-linear-65'>
-            <div className='bg-[#E0B973] size-20 rounded-b-2xl text-wrap p-2 font-doto mx-3 mb-3 px-5'>
+        <nav className=' flex justify-between bg-transparent bg-linear-65'>
+            <div className='bg-[#E0B973] size-20 rounded-b-4xl text-wrap p-2 font-doto mx-19 mb-3 px-5 w-40'>
                 <p className='flex justify-center text-indigo-950'>LUXURY</p>
                 <p className='text-sm flex justify-center text-indigo-950'>HOTELS</p>
                 </div>
