@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Doto:wght@648&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Doto:wght@648&display=swap');
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Doto:wght@648&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Rocker&display=swap');@import "tailwindcss";
 
 @theme{
     --font-doto: "Doto",sans-serif;
     --font-weight: 1080;
     --font-averia:"Averia Serif Libre",serif;
+    --font-montserrat:"Montserrat",sans-serif;
+    --font-new-rocker:"New Rocker",system-ui;
 }
