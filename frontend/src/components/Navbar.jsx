@@ -1,14 +1,14 @@
 import '../App.css'
 
 export default function Navbar(){
-    const linkStyle = "font-doto font-extrabold text-gray-300 hover:font-thin hover:text-white hover:bg-black px-3 py-2 rounded-md text-xl font-medium duration-300 ease-in";
+    const linkStyle = "font-doto font-extrabold text-white hover:font-thin hover:text-white hover:bg-black px-3 py-3 rounded-md text-xl font-medium duration-300 ease-in";
 
     return(
         <>
-        <nav className=' flex justify-between bg-transparent bg-linear-65'>
-            <div className='bg-[#E0B973] size-20 rounded-b-4xl text-wrap p-2 font-doto mx-19 mb-3 px-5 w-40'>
-                <p className='flex justify-center text-indigo-950'>LUXURY</p>
-                <p className='text-sm flex justify-center text-indigo-950'>HOTELS</p>
+        <nav className='absolute flex justify-between bg-transparent bg-linear-65 min-w-full '>
+            <div className='bg-[#E0B973] size-20 rounded-b-4xl text-wrap p-2 font-doto mx-19 mb-3 px-5 w-40 h-25'>
+                <p className='flex justify-center text-[30px] font-bold text-indigo-950'>LUXURY</p>
+                <p className='text-sm flex justify-center text-[20px] text-indigo-950 mb-9'>HOTELS</p>
                 </div>
             <div className='flex flex-row justify-end' > 
                 <ul className='flex gap-4 p-3'>

@@ -3,7 +3,9 @@ import {FacebookOutlined,TwitterOutlined,InstagramOutlined} from '@ant-design/ic
 export default function Footer(){
     return(
         <>
-        <div  className='grid grid-cols-4 bg-[#14274A] text-white'>
+        <div className='flex justify-center '>
+        <div className=' bg-[#14274A] size-50 absolute rotate-45  w-0 h-0 border-l-[50px] border-l-transparent border-r-[50px] border-r-transparent border-b-[75px] border-b-blue-500'>.</div></div>
+        <div  className='grid grid-cols-4 bg-[#14274A] text-white p-5 relative'>
         <div className='size-20 rounded-b-2xl text-wrap p-2 font-doto mx-19 mb-3 px-5'>
                 <p className='flex justify-center text-[30px]'>LUXURY</p>
                 <p className='text-sm flex justify-center'>HOTELS</p>
