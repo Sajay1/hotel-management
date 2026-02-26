@@ -19,13 +19,13 @@ export default function Footer() {
         </div>
         <div className="flex flex-column justify-between mx-19">
           <ul>
-            <li>
+            <li className="pb-2">
               <a href="/">Home</a>
             </li>
-            <li>
+            <li className="pb-2">
               <a href="/about">About Us</a>
             </li>
-            <li>
+            <li className="pb-2">
               <a href="/contact">Contact</a>
             </li>
             <li>
