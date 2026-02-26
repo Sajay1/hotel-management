@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 export default function Navbar() {
   const linkStyle =
-    "font-doto font-extrabold text-white hover:font-thin hover:text-white hover:scale-x-120 hover:underline px-3 py-3 rounded-md text-xl font-medium duration-300 ease-in";
+    "font-averia font-extrabold text-white px-5 py-5 rounded-md text-xl font-medium duration-300 ease-in hover:p-1 hover:underline focus:underline ";
 
   return (
     <>

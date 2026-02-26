@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="flex flex-col justify-center text-white items-center bg-cover bg-center bg-local"
+        className="flex flex-col justify-center text-white items-center bg-cover bg-center bg-local bg-[#14274A] bg-blend-lighten"
         style={{ backgroundImage: `url(${img})` }}
       >
         <div className="mr-120 mt-20 mb-80 pt-30">
