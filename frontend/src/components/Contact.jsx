@@ -1,3 +1,5 @@
+import img from "../assets/images/Arrow 1.png";
+
 export default function Contact() {
   return (
     <>
@@ -15,15 +17,25 @@ export default function Contact() {
         </span>
       </div>
       <div className="grid grid-cols-2 justify-center text-[#14274A] align-center p-20 ml-40 mr-10">
-        <div className="">
-          <p>497 Evergreen Rd. Roseville, CA 95673</p>
-          <p className="font-bold">View map</p>
-          <p>Phone: +44 345 678 903 Email: luxury_hotels@gmail.com</p>
+        <div className="font-montserrat font-semibold">
+          <p className="p-2">497 Evergreen Rd. Roseville, CA 95673</p>
+          <p className="font-extrabold p-2 ">
+            View map{" "}
+            <img
+              src={img}
+              alt="arrow-icon"
+              className="left-90 absolute bottom-8 w-10"
+            />
+          </p>
+          <p className="p-2">Phone: +44 345 678 903</p>
+          <p className="px-2">Email: luxury_hotels@gmail.com</p>
         </div>
         <div>
           <div>
             <div>
-              <label htmlFor="Name">Name</label>
+              <label htmlFor="Name" className="font-bold text-lg">
+                Name
+              </label>
             </div>
             <input
               type="text"
@@ -33,7 +45,9 @@ export default function Contact() {
           </div>
           <div>
             <div>
-              <label htmlFor="Email">Email</label>
+              <label htmlFor="Email" className="font-bold text-lg">
+                Email
+              </label>
             </div>
             <input
               type="email"
@@ -43,7 +57,9 @@ export default function Contact() {
           </div>
           <div>
             <div>
-              <label htmlFor="MSG">Message</label>
+              <label htmlFor="MSG" className="font-bold text-lg">
+                Message
+              </label>
             </div>
             <textarea
               name="message"

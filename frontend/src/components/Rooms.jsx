@@ -33,44 +33,108 @@ export default function Rooms() {
       </div>
 
       <div
-        className="flex flex-col py-50 px-2 text-white items-center bg-cover bg-center justify-center bg-size-[980px] bg-no-repeat border border-blue-800 border-t-0 "
+        className="flex flex-col py-20 px-2 text-white items-center bg-cover bg-center justify-center bg-size-[980px] bg-no-repeat"
         style={{ backgroundImage: `url(${img1})` }}
       >
-        <div className=" relative m-60 top-100 border-2 border-blue-800">
+        <div className=" relative m-60 top-100 border-2 border-t-0 rounded-b-2xl border-blue-800">
           <p className="font-bold bg-[#14274A] text-4xl w-245 text-center p-4">
             SINGLE ROOM
           </p>
-          <p className="text-[#14274A] top-100 pt-10 pb-10 p-40">
+          <p className="font-bold text-[#14274A] top-100 pt-10 pb-10 p-40 text-xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-9 absolute right-206 bottom-9"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
             VIEW ROOM DETAILS
+            <button className="bg-[#E0B973] rounded-xl px-5 py-2 left-190 absolute text-white">
+              $147 Avg/night
+            </button>
           </p>
         </div>
       </div>
 
       <div
-        className="flex flex-col p-50 text-white items-center bg-cover bg-center justify-center bg-size-[980px] bg-no-repeat border border-blue-800 border-t-0 "
+        className="flex flex-col p-50 pb-1 text-white items-center bg-cover bg-center justify-center bg-size-[980px] bg-no-repeat"
         style={{ backgroundImage: `url(${img2})` }}
       >
-        <div className=" relative m-60 top-80 border-2 border-blue-800">
+        <div className=" relative m-60 top-60 border-2 border-t-0 rounded-b-2xl border-blue-800">
           <p className="font-bold bg-[#14274A] text-4xl w-245 text-center p-4">
             DOUBLE ROOM
           </p>
-          <p className="text-[#14274A] top-100 pt-10 pb-10 p-40">
+          <p className="font-bold text-[#14274A] top-100 pt-10 pb-10 p-40 text-xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-9 absolute right-206 bottom-9"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
             VIEW ROOM DETAILS
+            <button className="bg-[#E0B973] rounded-xl px-5 py-2 left-190 absolute text-white">
+              $155 Avg/night
+            </button>
           </p>
         </div>
       </div>
+
       <div
-        className="flex flex-col p-50 text-white items-center bg-cover bg-center justify-center bg-size-[980px] bg-no-repeat border border-blue-800 border-t-0  "
+        className="flex flex-col p-50 pb-1 mb-20  text-white items-center bg-cover bg-center justify-center bg-size-[980px] bg-no-repeat"
         style={{ backgroundImage: `url(${img1})` }}
       >
-        <div className=" relative m-60 top-100 border-2 border-blue-800">
+        <div className=" relative m-60 top-70 border-2 border-t-0 rounded-b-2xl border-blue-800">
           <p className="font-bold bg-[#14274A] text-4xl w-245 text-center p-4">
             TWIN ROOM
           </p>
-          <p className="text-[#14274A] top-100 pt-10 pb-10 p-40">
+          <p className="font-bold text-[#14274A] top-100 pt-10 pb-10 p-40 text-xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-9 absolute right-206 bottom-9"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
             VIEW ROOM DETAILS
+            <button className="bg-[#E0B973] rounded-xl px-5 py-2 left-190 absolute text-white">
+              $155 Avg/night
+            </button>
           </p>
         </div>
+      </div>
+
+      <div className="flex flex-col mb-18 justify-center items-center p-2">
+        <h1 className="font-bold text-[50px]">Testimonials</h1>
+        <p className="text-[20px] font-semibold mt-7">
+          "Calm, Serene, Retro – What a way to relax and enjoy"
+        </p>
+        <p>Mr. and Mrs. Baxter, UK</p>
+        <span>
+          <LeftSquareOutlined className="bg-yellow-500 text-white" />
+          <RightSquareOutlined className="bg-yellow-500" />
+        </span>
       </div>
     </>
   );
