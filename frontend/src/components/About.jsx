@@ -38,7 +38,7 @@ export default function About() {
         style={{ backgroundImage: `url(${img1})` }}
       >
         <div className="relative bottom-70 right-100 m-40 p-50 ">
-          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 -rotate-35 rounded-3xl ">
+          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 -rotate-35 rounded-3xl shadow-xl/50 shadow-black-500 ">
             THE GYM
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function About() {
         style={{ backgroundImage: `url(${img2})` }}
       >
         <div className="relative bottom-50 left-110 m-40 py-50">
-          <p className="font-bold text-black bg-white text-5xl px-10 border-4 border-double outline-black-600 rotate-35 rounded-3xl">
+          <p className="font-bold text-black bg-white text-5xl px-10 border-4 border-double outline-black-600 rotate-35 rounded-3xl shadow-xl/50 shadow-black-500  ">
             SWIMMING POOL
           </p>
         </div>
@@ -58,7 +58,7 @@ export default function About() {
         style={{ backgroundImage: `url(${img3})` }}
       >
         <div className="relative bottom-68 right-100 m-40 p-50">
-          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 -rotate-35 rounded-3xl">
+          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 -rotate-35 rounded-3xl shadow-xl/50 shadow-black-500  ">
             THE SPA
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function About() {
         style={{ backgroundImage: `url(${img4})` }}
       >
         <div className="relative bottom-65 left-110 m-40 py-50">
-          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 rotate-35 rounded-3xl">
+          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 rotate-35 rounded-3xl shadow-xl/50 shadow-black-500 ">
             LAUNDRY
           </p>
         </div>
@@ -78,7 +78,7 @@ export default function About() {
         style={{ backgroundImage: `url(${img5})` }}
       >
         <div className="relative bottom-70 right-100 m-40 p-50">
-          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 -rotate-35 rounded-3xl">
+          <p className="font-bold text-black bg-white text-6xl px-10 border-4 border-double outline-black-600 -rotate-35 rounded-3xl shadow-xl/50 shadow-black-500 ">
             RESTAURANT
           </p>
         </div>

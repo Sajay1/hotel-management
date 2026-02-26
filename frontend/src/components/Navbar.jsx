@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 export default function Navbar() {
   const linkStyle =
-    "font-doto font-extrabold text-white hover:font-thin hover:text-white hover:bg-black px-3 py-3 rounded-md text-xl font-medium duration-300 ease-in";
+    "font-doto font-extrabold text-white hover:font-thin hover:text-white hover:scale-x-120 hover:underline px-3 py-3 rounded-md text-xl font-medium duration-300 ease-in";
 
   return (
     <>
@@ -15,9 +15,9 @@ export default function Navbar() {
             backSpeed={100}
             loop
             showCursor={false}
-            className="flex justify-center text-[30px] font-bold text-indigo-950 "
+            className="flex justify-center text-[30px] font-bold text-indigo-950 hover:scale-125 duration-300 ease-in"
           />
-          <p className="text-sm flex justify-center text-[20px] text-indigo-950 mb-9 ">
+          <p className="text-sm flex justify-center text-[20px] text-indigo-950 mb-9">
             HOTELS
           </p>
         </div>
@@ -28,6 +28,9 @@ export default function Navbar() {
             </li>
             <li className={linkStyle}>
               <a href="/about">About</a>
+            </li>
+            <li className={linkStyle}>
+              <a href="/rooms">Rooms</a>
             </li>
             <li className={linkStyle}>
               <a href="/contact">Contact</a>
