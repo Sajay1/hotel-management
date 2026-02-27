@@ -43,7 +43,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="hover:underline transition-all duration-300">
-                <a href="/terms" className="text-sm sm:text-base md:text-lg">
+                <a className="text-sm sm:text-base md:text-lg">
                   Terms & Conditions
                 </a>
               </li>
