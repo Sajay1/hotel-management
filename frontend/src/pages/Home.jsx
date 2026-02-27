@@ -3,7 +3,6 @@ import img1 from "../assets/images/andrew-ruiz-fmz-B9At9iQ-unsplash.png";
 import img2 from "../assets/images/steven-ungermann-aRT5UCf2MYY-unsplash.png";
 import Testimonials from "./components/Testimonials";
 
-
 export default function Home() {
   return (
     <>
@@ -80,8 +79,7 @@ export default function Home() {
         ></div>
       </div>
 
-<Testimonials />
-      
+      <Testimonials />
     </>
   );
 }

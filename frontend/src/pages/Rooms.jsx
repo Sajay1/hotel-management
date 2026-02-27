@@ -3,10 +3,7 @@ import img1 from "../assets/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash
 import img2 from "../assets/images/double-room 1.png";
 import Testimonials from "./components/Testimonials";
 
-
 export default function Rooms() {
-
-
   return (
     <div className="w-full overflow-x-hidden">
       <div
@@ -29,7 +26,6 @@ export default function Rooms() {
           </p>
         </div>
       </div>
-
 
       <div className="flex flex-col justify-center text-[#14274A] items-center p-6 sm:p-8 md:p-10 lg:p-12">
         <p className="text-3xl sm:text-4xl md:text-5xl font-averia pb-4 sm:pb-6 text-center">

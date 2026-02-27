@@ -6,7 +6,6 @@ import img4 from "../assets/images/bianca-jordan-o7SvheEZoks-unsplash 1.png";
 import img5 from "../assets/images/jason-leung-poI7DelFiVA-unsplash 1.png";
 import Testimonials from "./components/Testimonials";
 
-
 export default function About() {
   return (
     <>
@@ -94,12 +93,11 @@ export default function About() {
       >
         <div className="absolute inset-0 flex items-center justify-center md:justify-start md:right-[10%] max-sm:right-[10%] lg:right-[10%] lg:bottom-[80%] md:bottom-[80%] max-md:bottom-[80%] max-sm:bottom-[80%]">
           <p className="font-bold text-black bg-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl px-4 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3 md:py-4 border-4 border-double outline-black-600 -rotate-12 md:-rotate-35 rounded-3xl shadow-xl/50 shadow-black-500 transform hover:scale-105 transition-transform duration-300">
-          RESTAURANT
+            RESTAURANT
           </p>
         </div>
       </div>
 
-      
       <Testimonials />
     </>
   );
