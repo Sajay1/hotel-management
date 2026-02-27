@@ -1,34 +1,16 @@
-import img from "../assets/images/palm-trees-at-night-258154.png";
 import img1 from "../assets/images/humphrey-muleba-LOA2mTj1vhc-unsplash 1.png";
 import img2 from "../assets/images/big-tiny-belly-XtnNrQYC7ts-unsplash 1.png";
 import img3 from "../assets/images/adetayo-adefala-1K2iQQM31D0-unsplash 1.png";
 import img4 from "../assets/images/bianca-jordan-o7SvheEZoks-unsplash 1.png";
 import img5 from "../assets/images/jason-leung-poI7DelFiVA-unsplash 1.png";
 import Testimonials from "./components/Testimonials";
+import Header from "./components/Header";
+
 
 export default function About() {
   return (
     <>
-      <div
-        className="flex flex-col justify-center text-white items-center bg-cover bg-center bg-[#14274A] bg-blend-lighten min-h-[400px] md:min-h-[600px] lg:min-h-[800px] w-full px-4"
-        style={{ backgroundImage: `url(${img})` }}
-      >
-        <div className="w-full max-w-7xl mx-auto text-center md:text-left">
-          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-montserrat max-w-full md:max-w-xl lg:max-w-2xl">
-            WELCOME TO{" "}
-            <span className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl block md:inline font-averia">
-              LUXURY
-            </span>{" "}
-            <span className="text-3xl sm:text-4xl md:text-5xl tracking-widest block md:inline">
-              HOTELS
-            </span>
-          </p>
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 sm:mt-6 md:mt-8 lg:mt-10 max-w-full md:max-w-2xl lg:max-w-3xl font-new-rocker">
-            Book your stay and enjoy Luxury redefined at the most affordable
-            rates.
-          </p>
-        </div>
-      </div>
+      <Header />
 
       <div className="flex flex-col justify-center text-indigo-600 items-center p-6 sm:p-8 md:p-10 m-4 sm:m-6 md:m-10">
         <p className="text-2xl sm:text-3xl md:text-4xl mb-6 md:mb-9 font-cascadia-mono">

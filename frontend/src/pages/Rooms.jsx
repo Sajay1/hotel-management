@@ -1,31 +1,15 @@
-import img from "../assets/images/apartment-bed-bedroom-chair-271618 1.png";
 import img1 from "../assets/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash 1.png";
 import img2 from "../assets/images/double-room 1.png";
+import Header from "./components/Header";
 import Testimonials from "./components/Testimonials";
+
 
 export default function Rooms() {
   return (
     <div className="w-full overflow-x-hidden">
-      <div
-        className="flex flex-col justify-center text-white items-center bg-cover bg-center bg-local bg-indigo-400 bg-blend-multiply min-h-[400px] sm:min-h-[500px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px] px-4 sm:px-6 md:px-9 lg:px-16"
-        style={{ backgroundImage: `url(${img})` }}
-      >
-        <div className="w-full max-w-7xl mx-auto text-center md:text-left">
-          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-montserrat max-w-full md:max-w-xl lg:max-w-2xl">
-            WELCOME TO{" "}
-            <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-9xl block md:inline font-averia">
-              LUXURY
-            </span>{" "}
-            <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl tracking-widest block md:inline">
-              HOTELS
-            </span>
-          </p>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mt-4 sm:mt-6 md:mt-8 lg:mt-10 max-w-full md:max-w-2xl lg:max-w-3xl font-new-rocker">
-            Book your stay and enjoy Luxury redefined at the most affordable
-            rates.
-          </p>
-        </div>
-      </div>
+
+      <Header />
+      
 
       <div className="flex flex-col justify-center text-[#14274A] items-center p-6 sm:p-8 md:p-10 lg:p-12">
         <p className="text-3xl sm:text-4xl md:text-5xl font-averia pb-4 sm:pb-6 text-center">

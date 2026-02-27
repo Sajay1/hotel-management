@@ -1,31 +1,13 @@
-import img from "../assets/images/gabriel ghnassia A9h6OsAxTyQ unsplash.png";
 import img1 from "../assets/images/andrew-ruiz-fmz-B9At9iQ-unsplash.png";
 import img2 from "../assets/images/steven-ungermann-aRT5UCf2MYY-unsplash.png";
 import Testimonials from "./components/Testimonials";
+import Header from "./components/Header";
+
 
 export default function Home() {
   return (
     <>
-      <div
-        className="flex flex-col justify-center text-white items-center bg-cover bg-center bg-local bg-[#14274A] bg-blend-lighten min-h-[600px] md:min-h-[900px] px-4 md:px-9 lg:px-16"
-        style={{ backgroundImage: `url(${img})` }}
-      >
-        <div className="w-full max-w-7xl mx-auto text-center md:text-left">
-          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-montserrat max-w-full md:max-w-xl lg:max-w-2xl">
-            WELCOME TO{" "}
-            <span className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl block md:inline font-averia">
-              LUXURY
-            </span>{" "}
-            <span className="text-3xl sm:text-4xl md:text-5xl tracking-widest block md:inline">
-              HOTELS
-            </span>
-          </p>
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 sm:mt-6 md:mt-8 lg:mt-10 max-w-full md:max-w-2xl lg:max-w-3xl font-new-rocker">
-            Book your stay and enjoy Luxury redefined at the most affordable
-            rates.
-          </p>
-        </div>
-      </div>
+    <Header />
 
       <div className="flex flex-col justify-center text-blue-600 items-center p-4 sm:p-6 md:p-8 lg:p-10 text-base sm:text-lg md:text-xl">
         <p className="text-center">
