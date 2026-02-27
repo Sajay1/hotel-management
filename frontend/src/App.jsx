@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Rooms from './components/Rooms'
+import Navbar from './pages/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Footer from './pages/Footer'
+import Rooms from './pages/Rooms'
 
 function App() {
 
