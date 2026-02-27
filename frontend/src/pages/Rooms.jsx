@@ -1,7 +1,8 @@
 import img from "../assets/images/apartment-bed-bedroom-chair-271618 1.png";
 import img1 from "../assets/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash 1.png";
 import img2 from "../assets/images/double-room 1.png";
-import { LeftSquareOutlined, RightSquareOutlined } from "@ant-design/icons";
+import Testimonials from "./components/Testimonials";
+
 
 export default function Rooms() {
 
@@ -157,19 +158,7 @@ export default function Rooms() {
         </div>
       </div>
 
-      <div className="flex flex-col mb-12 sm:mb-16 md:mb-20 justify-center items-center p-4 sm:p-6 md:p-8">
-        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-[#14274A]">
-          Testimonials
-        </h1>
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold mt-4 sm:mt-5 md:mt-7 text-center max-w-2xl px-4 text-gray-700">
-          "Calm, Serene, Retro – What a way to relax and enjoy"
-        </p>
-        <p className="text-xs sm:text-sm md:text-base mt-2 text-gray-600">Mr. and Mrs. Baxter, UK</p>
-        <div className="flex gap-4 sm:gap-6 mt-4 sm:mt-6">
-          <LeftSquareOutlined className="text-3xl sm:text-4xl md:text-5xl bg-yellow-400 cursor-pointer hover:scale-110 transition-transform" />
-          <RightSquareOutlined className="text-3xl sm:text-4xl md:text-5xl bg-yellow-400 cursor-pointer hover:scale-110 transition-transform" />
-        </div>
-      </div>
+      <Testimonials />
     </div>
   );
 }

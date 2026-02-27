@@ -1,3 +1,6 @@
+import { LeftSquareOutlined, RightSquareOutlined } from "@ant-design/icons";
+
+
 export default function Testimonials(){
     return(
         <>

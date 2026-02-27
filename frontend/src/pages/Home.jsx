@@ -1,7 +1,8 @@
 import img from "../assets/images/gabriel ghnassia A9h6OsAxTyQ unsplash.png";
 import img1 from "../assets/images/andrew-ruiz-fmz-B9At9iQ-unsplash.png";
 import img2 from "../assets/images/steven-ungermann-aRT5UCf2MYY-unsplash.png";
-import { LeftSquareOutlined, RightSquareOutlined } from "@ant-design/icons";
+import Testimonials from "./components/Testimonials";
+
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
         ></div>
       </div>
 
+<Testimonials />
       
     </>
   );
