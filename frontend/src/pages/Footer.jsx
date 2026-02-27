@@ -7,13 +7,10 @@ import {
 export default function Footer() {
   return (
     <>
-
       <footer className="w-full">
-
         <div className="flex justify-center">
-        <div className="w-0 h-0 border-l-[35px] sm:border-l-[35px] md:border-l-[35px] border-l-transparent border-r-[35px] sm:border-r-[35px] md:border-r-[35px] border-r-transparent border-b-[30px] sm:border-b-[30px] md:border-b-[30px] border-b-[#14274A]">
+          <div className="w-0 h-0 border-l-[35px] sm:border-l-[35px] md:border-l-[35px] border-l-transparent border-r-[35px] sm:border-r-[35px] md:border-r-[35px] border-r-transparent border-b-[30px] sm:border-b-[30px] md:border-b-[30px] border-b-[#14274A]"></div>
         </div>
-      </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-5 bg-[#14274A] text-white p-6 sm:p-5 md:p-6 lg:p-8">
           <div className="flex flex-col items-center sm:items-start">
@@ -115,7 +112,6 @@ export default function Footer() {
           </p>
         </div>
       </footer>
-      
     </>
   );
 }
