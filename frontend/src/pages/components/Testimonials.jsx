@@ -1,10 +1,9 @@
 import { LeftSquareOutlined, RightSquareOutlined } from "@ant-design/icons";
 
-
-export default function Testimonials(){
-    return(
-        <>
-        <div className="flex flex-col mb-12 sm:mb-16 md:mb-20 justify-center items-center p-4 sm:p-6 md:p-8">
+export default function Testimonials() {
+  return (
+    <>
+      <div className="flex flex-col mb-12 sm:mb-16 md:mb-20 justify-center items-center p-4 sm:p-6 md:p-8">
         <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl text-center">
           Testimonials
         </h1>
@@ -17,6 +16,6 @@ export default function Testimonials(){
           <RightSquareOutlined className="text-3xl sm:text-4xl bg-yellow-500 text-yellow-500 cursor-pointer hover:scale-110 transition-transform" />
         </div>
       </div>
-      </>
-    )
+    </>
+  );
 }
