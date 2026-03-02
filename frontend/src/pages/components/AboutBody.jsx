@@ -27,7 +27,6 @@ export default function AboutBody() {
         </p>
       </div>
 
-      {/* Map through the facilities from your JSON data */}
       {facilities.map((facility, index) => (
         <div
           key={facility.id}
