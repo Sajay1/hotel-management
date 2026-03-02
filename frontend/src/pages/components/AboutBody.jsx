@@ -1,8 +1,8 @@
-import img1 from "/public/images/humphrey-muleba-LOA2mTj1vhc-unsplash 1.png";
-import img2 from "/public/images/big-tiny-belly-XtnNrQYC7ts-unsplash 1.png";
-import img3 from "/public/images/adetayo-adefala-1K2iQQM31D0-unsplash 1.png";
-import img4 from "/public/images/bianca-jordan-o7SvheEZoks-unsplash 1.png";
-import img5 from "/public/images/jason-leung-poI7DelFiVA-unsplash 1.png";
+import img1 from "/src/assets/images/humphrey-muleba-LOA2mTj1vhc-unsplash 1.png";
+import img2 from "/src/assets/images/big-tiny-belly-XtnNrQYC7ts-unsplash 1.png";
+import img3 from "/src/assets/images/adetayo-adefala-1K2iQQM31D0-unsplash 1.png";
+import img4 from "/src/assets/images/bianca-jordan-o7SvheEZoks-unsplash 1.png";
+import img5 from "/src/assets/images/jason-leung-poI7DelFiVA-unsplash 1.png";
 
 export default function AboutBody(){
     return(<>

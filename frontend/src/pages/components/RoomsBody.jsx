@@ -1,5 +1,5 @@
-import img1 from "/public/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash 1.png";
-import img2 from "/public/images/double-room 1.png";
+import img1 from "/src/assets/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash 1.png";
+import img2 from "/src/assets/images/double-room 1.png";
 
 export default function RoomsBody(){
     return(<>
