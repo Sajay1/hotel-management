@@ -17,6 +17,57 @@
       "name": "Rooms",
       "image": "/src/assets/images/apartment-bed-bedroom-chair-271618-1.png",
       "path": "/rooms"
+    },
+    {
+      "id": 4,
+      "name": "THE GYM",
+      "image": "/src/assets/images/humphrey-muleba-LOA2mTj1vhc-unsplash-1.png",
+      "path": "/about"
+    },
+    {
+      "id": 5,
+      "name": "SWIMMING POOL",
+      "image": "/src/assets/images/big-tiny-belly-XtnNrQYC7ts-unsplash-1.png",
+      "path": "/about"
+    },
+    {
+      "id": 6,
+      "name": "THE SPA",
+      "image": "/src/assets/images/adetayo-adefala-1K2iQQM31D0-unsplash-1.png",
+      "path": "/about"
+    },
+    {
+      "id": 7,
+      "name": "LAUNDRY",
+      "image": "/src/assets/images/bianca-jordan-o7SvheEZoks-unsplash-1.png",
+      "path": "/about"
+    },
+    {
+      "id": 8,
+      "name": "RESTAURANT",
+      "image": "/src/assets/images/jason-leung-poI7DelFiVA-unsplash-1.png",
+      "path": "/about"
+    },
+    {
+      "id": 9,
+      "name": "SINGLE ROOM",
+      "image": "/src/assets/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash-1.png",
+      "path": "/rooms",
+      "roomrate":"147"
+    },
+    {
+      "id": 10,
+      "name": "DOUBLE ROOM",
+      "image": "/src/assets/images/double-room-1.png",
+      "path": "/rooms",
+      "roomrate":"155"
+    },
+    {
+      "id": 10,
+      "name": "TWIN ROOM",
+      "image": "/src/assets/images/fred-kleber-gTbaxaVLvsg-unsplash-1.png",
+      "path": "/rooms",
+      "roomrate":"155"
     }
   ]
 }
