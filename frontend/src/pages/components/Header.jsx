@@ -29,9 +29,9 @@ export default function Header() {
         
         <div className="w-full max-w-7xl mx-auto text-center md:text-left">
           <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-montserrat max-w-full md:max-w-xl lg:max-w-2xl">
-            {currentPath === "/" || currentPath === "/home" ? "WELCOME TO" : currentPageData.name.toUpperCase()}{" "}
+            WELCOME TO
             <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-9xl block md:inline font-averia">
-              LUXURY
+              <p>LUXURY</p>
             </span>{" "}
             <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl tracking-widest block md:inline">
               HOTELS
