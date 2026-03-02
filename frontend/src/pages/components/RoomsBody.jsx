@@ -1,9 +1,10 @@
 import img1 from "/src/assets/images/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash 1.png";
 import img2 from "/src/assets/images/double-room 1.png";
 
-export default function RoomsBody(){
-    return(<>
-     <div className="flex flex-col justify-center text-[#14274A] items-center p-6 sm:p-8 md:p-10 lg:p-12">
+export default function RoomsBody() {
+  return (
+    <>
+      <div className="flex flex-col justify-center text-[#14274A] items-center p-6 sm:p-8 md:p-10 lg:p-12">
         <p className="text-3xl sm:text-4xl md:text-5xl font-averia pb-4 sm:pb-6 text-center">
           ROOMS AND RATES
         </p>
@@ -129,5 +130,6 @@ export default function RoomsBody(){
           </div>
         </div>
       </div>
-      </>)
+    </>
+  );
 }

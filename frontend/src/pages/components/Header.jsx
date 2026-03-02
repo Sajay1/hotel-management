@@ -6,13 +6,10 @@ export default function Header() {
   const location = useLocation();
   const currentPath = location.pathname;
 
-
   const currentPageData = useMemo(() => {
     const found = data.data.find((item) => item.path === currentPath);
     return found || data.data[0];
   }, [currentPath]);
-  
-
 
   const headerStyle = useMemo(() => {
     const baseStyle =
@@ -20,19 +17,16 @@ export default function Header() {
 
     switch (currentPath) {
       case "/about":
-        return (
-          baseStyle + " bg-[#14274A] bg-blend-lighten"
-        );
+        return baseStyle + " bg-[#14274A] bg-blend-lighten";
       case "/rooms":
-        return baseStyle +
-        " bg-indigo-400 bg-blend-multiply min-h-[400px] sm:min--[500px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px] px-4 sm:px-6 md:px-9 lg:px-16"
-;
+        return (
+          baseStyle +
+          " bg-indigo-400 bg-blend-multiply min-h-[400px] sm:min--[500px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px] px-4 sm:px-6 md:px-9 lg:px-16"
+        );
       default:
         return baseStyle + " bg-[#14274A] bg-blend-lighten";
     }
   }, [currentPath]);
-
-
 
   return (
     <div

@@ -11,7 +11,7 @@ export default function Links() {
 
   return (
     <>
-    {/*Link Section*/}
+      {/*Link Section*/}
       {links.map((link, index) => (
         <a key={index} href={link.href} className={link.className}>
           {link.label}
