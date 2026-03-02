@@ -1,8 +1,7 @@
-import "../App.css";
+import "/src/App.css";
 import { ReactTyped } from "react-typed";
 import { useState } from "react";
-import Links from "./components/links";
-
+import Links from "../components/Links"
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
