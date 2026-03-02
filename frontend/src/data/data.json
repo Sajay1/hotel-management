@@ -3,20 +3,20 @@
     {
       "id": 1,
       "name": "Home",
-      "image": "/src/assets/images/gabriel ghnassia A9h6OsAxTyQ unsplash.png",
-      "path":"/home"
+      "image": "/src/assets/images/gabriel ghnassia A9h6OsAxTyQ unsplash",
+      "path": "/"
     },
     {
       "id": 2,
       "name": "About",
       "image": "/src/assets/images/apartment-bed-bedroom-chair-271618 1.png",
-      "path":"/about"
+      "path": "/about"
     },
     {
-        "id":3,
-        "name":"Rooms",
-        "image":"/src/assets/images/palm-trees-at-night-258154.png",
-        "path":"/rooms"
+      "id": 3,
+      "name": "Rooms",
+      "image": "/src/assets/images/palm-trees-at-night-258154.png",
+      "path": "/rooms"
     }
   ]
 }

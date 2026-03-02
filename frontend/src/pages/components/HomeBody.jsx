@@ -1,5 +1,5 @@
-import img1 from "/src/assets/images/andrew-ruiz-fmz-B9At9iQ-unsplash.png";
-import img2 from "/src/assets/images/steven-ungermann-aRT5UCf2MYY-unsplash.png";
+import img1 from "/public/images/andrew-ruiz-fmz-B9At9iQ-unsplash.png";
+import img2 from "/public/images/steven-ungermann-aRT5UCf2MYY-unsplash.png";
 
 export default function HomeBody(){
     return(
