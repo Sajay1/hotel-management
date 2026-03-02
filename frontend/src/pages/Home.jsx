@@ -7,11 +7,14 @@ import Body from "./components/Body";
 export default function Home() {
   return (
     <>
-    <Header />
-
-    <Body />
-
-      <Testimonials />
+    {/*Header Section*/}
+          <Header />
+          
+          {/*Body Section*/}
+          <Body />
+         
+         {/*Testimonials Section*/}
+          <Testimonials />
     </>
   );
 }

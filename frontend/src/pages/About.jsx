@@ -6,11 +6,14 @@ import Header from "./components/Header";
 export default function About() {
   return (
     <>
-      <Header />
-      
-      <Body />
-
-      <Testimonials />
+      {/*Header Section*/}
+            <Header />
+            
+            {/*Body Section*/}
+            <Body />
+           
+           {/*Testimonials Section*/}
+            <Testimonials />
     </>
   );
 }

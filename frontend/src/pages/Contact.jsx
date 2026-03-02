@@ -20,6 +20,8 @@ export default function Contact() {
         </span>
       </div>
 
+
+      {/*Contact section */}
       <Contactpart />
 
     </>
